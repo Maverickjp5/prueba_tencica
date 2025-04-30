@@ -25,7 +25,6 @@ Se intentaron las siguientes soluciones:
 
 Aunque no fue posible ejecutar Laravel completamente, se dejó preparado:
 
-- `
 - `app/Http/Controllers/UserController.php`: controlador CRUD de ejemplo
 - `.env.example`: configuración de conexión a base de datos MySQL
 - Estructura típica de proyecto Laravel lista para instalar dependencias
