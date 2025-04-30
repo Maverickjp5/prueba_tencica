@@ -25,10 +25,8 @@ Se intentaron las siguientes soluciones:
 
 Aunque no fue posible ejecutar Laravel completamente, se dejó preparado:
 
-- `composer.json`: con los paquetes estándar de Laravel
+- `
 - `app/Http/Controllers/UserController.php`: controlador CRUD de ejemplo
-- `routes/api.php`: ruta base definida
-- `database/migrations/`: estructura de migración base para la tabla `users`
 - `.env.example`: configuración de conexión a base de datos MySQL
 - Estructura típica de proyecto Laravel lista para instalar dependencias
 
@@ -37,7 +35,7 @@ Aunque no fue posible ejecutar Laravel completamente, se dejó preparado:
 ## Pruebas y Limitaciones
 
 Debido al error SSL mencionado, no fue posible ejecutar comandos como `composer install` o `php artisan`.  
-Sin embargo, el proyecto está listo para funcionar correctamente en un entorno Laravel saludable con SSL y Composer configurados.
+Sin embargo, se realizo lo que se podia desarrollar sin el laravel instalado, ya que no pudo realizar una prueba correspondiente del backend
 
 ---
 
